@@ -1,0 +1,50 @@
+{
+  "name": "copperbeam",
+  "version": "1.0.0",
+  "description": "A hybrid micropayment/subscription network server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChannelsNetwork/copperbeam.git"
+  },
+  "author": "Kingston Duffie <kduffie@hivepoint.com> (http://braid.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChannelsNetwork/copperbeam/issues"
+  },
+  "homepage": "https://github.com/ChannelsNetwork/copperbeam#readme",
+  "dependencies": {
+    "compression": "^1.7.2",
+    "escape-html": "^1.0.3",
+    "ethereumjs-util": "^5.2.0",
+    "express": "^4.16.3",
+    "jwa": "^1.1.5",
+    "key-encoder": "^1.1.6",
+    "lru-cache": "^4.1.2",
+    "mongodb": "^3.0.7",
+    "mustache": "^2.3.0",
+    "node-fetch": "^2.1.2",
+    "parse-full-name": "^1.2.3",
+    "rollbar": "^2.3.9",
+    "secp256k1": "^3.5.0",
+    "signal-exit": "^3.0.2",
+    "useragent": "^2.3.0",
+    "uuid": "^3.2.1",
+    "x-frame-options": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.7",
+    "@types/compression": "0.0.36",
+    "@types/escape-html": "0.0.20",
+    "@types/express": "^4.11.1",
+    "@types/lru-cache": "^4.1.0",
+    "@types/mongodb": "^3.0.15",
+    "@types/mustache": "^0.8.30",
+    "@types/node-fetch": "^1.6.9",
+    "@types/useragent": "^2.1.1",
+    "@types/uuid": "^3.4.3"
+  }
+}

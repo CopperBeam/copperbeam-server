@@ -1,0 +1,17 @@
+{
+  "name": "copperbeam",
+  "homepage": "https://github.com/ChannelsNetwork/copperbeam",
+  "authors": [
+    "Kingston Duffie <kduffie@hivepoint.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

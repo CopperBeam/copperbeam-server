@@ -1,0 +1,48 @@
+{
+  "domain": "copperbeam.net",
+  "serverId": "http://localhost:33311",
+  "baseClientUri": "http://localhost:33311",
+  "mongo": {
+    "mongoUrl": "mongodb://localhost:27017/copperbeam",
+    "options": {
+      "w": 1,
+      "socketOptions": {
+        "socketTimeoutMS": 300000,
+        "connectTimeoutMS": 300000
+      }
+    }
+  },
+  "ping": {
+    "interval": 300000,
+    "timeout": 350000
+  },
+  "ssl": {
+    "ca": "/usr/local/etc/certs/caBundle",
+    "key": "/usr/local/etc/certs/server.key",
+    "cert": "/usr/local/etc/certs/server.crt"
+  },
+  "client": {
+    "ssl": false,
+    "port": 33311
+  },
+  "debug": {
+    "transport": {
+      "log": {
+        "rx": true,
+        "tx": true
+      }
+    }
+  },
+  "google": {
+    "analytics": {
+      "id": "UA-xxxxxxxx-xx"
+    }
+  },
+  "ipAddress": {
+    "geo": {
+      "enabled": true,
+      "urlPrefix": "http://pro.ip-api.com/json/",
+      "urlSuffix": "?key=MmcIbq3UM67Od4E"
+    }
+  }
+}
